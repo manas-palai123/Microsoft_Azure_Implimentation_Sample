@@ -44,8 +44,9 @@ az storage account show-connection-string --resource-group MyResourceGroup --nam
 ```bash
 az storage blob upload --account-name mystorageaccount --account-key <your-storage-account-key> --container-name <your-container-name> --name <your-blob-name> --type block --content-type "application/octet-stream" --content-encoding "gzip" --type block --content <path-to-local-file>
 ```
-##Additional Inforamtion
+## Additional Inforamtion
 
 ```vbnet
-Make sure to replace placeholders with actual values, and be cautious with handling access keys. Note that using Azure Key Vault or Shared Access Signatures (SAS) for more secure access is recommended in production scenarios.
+Make sure to replace placeholders with actual values, and be cautious with handling access keys.
+Note that using Azure Key Vault or Shared Access Signatures (SAS) for more secure access is recommended in production scenarios.
 ```
